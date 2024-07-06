@@ -14,7 +14,7 @@ import { prepareTransaction } from '../../shared/transaction-utils';
 import { ActionGetResponse, ActionPostRequest, ActionPostResponse } from '@solana/actions';
 
 const DONATION_DESTINATION_WALLET =
-  '3h4AtoLTh3bWwaLhdtgQtcC3a3Tokb8NJbtqR9rhp7p6';
+  'H6oEWNDbXCCXXwjZG4XViVTdctoXubnGa1LDQ76vWNk5';
 const DONATION_AMOUNT_SOL_OPTIONS = [1, 5, 10];
 const DEFAULT_DONATION_AMOUNT_SOL = 1;
 
@@ -138,10 +138,10 @@ function getDonateInfo(): Pick<
   'icon' | 'title' | 'description'
 > {
   const icon =
-    'https://ucarecdn.com/7aa46c85-08a4-4bc7-9376-88ec48bb1f43/-/preview/880x864/-/quality/smart/-/format/auto/';
-  const title = 'Donate to Alice';
+    'https://arweave.net/yqTKFzFEy8B4iGX5HARSLk00XegEHSc-KaLK0WR_2LE?ext=png';
+  const title = 'Donate to Solant';
   const description =
-    'Cybersecurity Enthusiast | Support my research with a donation.';
+    'Extend your study | Support our research with a donation.';
   return { icon, title, description };
 }
 async function prepareDonateTransaction(
