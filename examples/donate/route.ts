@@ -138,7 +138,7 @@ function getDonateInfo(): Pick<
   'icon' | 'title' | 'description'
 > {
   const icon =
-    'https://arweave.net/yqTKFzFEy8B4iGX5HARSLk00XegEHSc-KaLK0WR_2LE?ext=png';
+    'https://i.ibb.co/br2phb2/Donate-Please.png?fbclid=IwZXh0bgNhZW0CMTAAAR1BpGDZgKMLEleWxpIbRxcO5ByU7TBGaNqeleIY1yQjJ8Rs8z1IJKISyf4_aem_3QwhQbCCmrxozGHj7vpWpQ';
   const title = 'Donate to Solant';
   const description =
     'Extend your study | Support our research with a donation.';
